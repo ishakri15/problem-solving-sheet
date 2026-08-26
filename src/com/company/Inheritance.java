@@ -2,6 +2,11 @@ package com.company;
 
 class A{
     private int a;
+
+    public void setA(int a){
+        this.a = a;
+    }
+
     A(int a){
         this.a = a; //if we write a=a , it will throw an error, so for reference we use this keyword
     }
@@ -14,6 +19,9 @@ class A{
 class B extends A{
     B(int b){
         super(b);
+
+        setA(2);
+
         System.out.println("I am a constructor of B class");
     }
 }

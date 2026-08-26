@@ -3,9 +3,7 @@ package com.company;
 class Course{
     static int maxCapacity = 100;
     String courseName;
-    String enrolledStudents[];
-    String studentName;
-    boolean isEnrolled;
+    String[] enrolledStudents;
     int enrollments;
 
     Course(String courseName){
@@ -28,11 +26,11 @@ class Course{
 }
 public class CourseChallenge {
     static void main(String[] args) {
-        Course.setMaxCapacity(2);
-        Course cr = new Course("Isha","Java");
-        Course cr1 = new Course("Dev","Java");
-        cr.enrollStudent("Isha");
-        cr1.enrollStudent("Dev");
-        System.out.println(cr.enrolledStudents);
+        Course java = new Course("Java");
+        Course spring = new Course("Spring");
+        java.enrollStudent("Isha");
+        spring.enrollStudent("Dev");
+        java.enrollStudent("Ravina");
+        java.unenrollStudent("Ravina");
     }
 }
