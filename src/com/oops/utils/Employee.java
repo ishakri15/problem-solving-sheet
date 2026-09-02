@@ -1,4 +1,4 @@
-package com.example.utils;
+package com.oops.utils;
 
 public class Employee {
     private int id;

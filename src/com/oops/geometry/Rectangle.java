@@ -1,4 +1,4 @@
-package com.example.geometry;
+package com.oops.geometry;
 
 public class Rectangle {
     public int length;

@@ -1,7 +1,7 @@
-package com.example.utils;
+package com.oops.utils;
 
-import com.example.geometry.Circle;
-import com.example.geometry.Rectangle;
+import com.oops.geometry.Circle;
+import com.oops.geometry.Rectangle;
 
 public class Calculator {
 
